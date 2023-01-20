@@ -1,0 +1,33 @@
+
+*{
+    background-color: bisque;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .person1 {
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    
+  }
+  
+  .person-img {
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("freshman.jpg");
+  }
+  
+  .rounded-img {
+    border-radius: 50%;
+  }
+  
+  .person-info {
+    padding: 10px;
+  }
+  
+  .subtitle {
+    font-style: italic;
+  }

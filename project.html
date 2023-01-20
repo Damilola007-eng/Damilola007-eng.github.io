@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+CSC 310 GROUP 21 PROJECT
+        </title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./project_test.css">
+        <link rel="icon" href="image/Calculator-icon.png" type="image/icon">
+        <script src="./App.js" defer></script> 
+    </head>
+    <body>
+        <div class="nav">
+            <ul class="navbar">
+                <li><a href="">Home </a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#CALC">Calculator</a></li>
+            </ul>
+            </div>
+        <article>
+            <section id="About">
+                <div class ="intro">
+                    <p><h1>WELCOME TO OUR COOL WEBSITE</h1></p>
+                    <p>Meet the Crew!</p>
+                </div>
+                <br>
+                    <table class="table">
+                        <tr><td class="cell"><br><label>20CG028126</label></td><td ><br><label class="invisible">20CG028101</label></td><td><label class="invisible">20CD028267</label></td><td class="cell">20CD028256</td></tr>
+                        <tr><td class ="cell">19CH026507<br>Damilola</td><td>20CH028149</td><td class = "cell">20CH028176<br>Chizzy</td></tr>
+                    </table>
+                    <br>
+
+                    <form class="form">
+                    <label>Name</label>
+                    <br>
+                    <input type="text" maxlength="60" placeholder="Name">
+                    <br>
+                    <label>Matric no</label>
+                    <br>
+                    <input type="text" maxlength="60" placeholder="Matric NO">
+                    <br>
+                    <input class = "answer" type="button" onclick="" value="Join Our Crew">
+                    </form>
+            </section>
+            <section id="CALC">
+                <div class="container">
+                    <div class="screen">
+                        <!-- A hamburger menu will be created here to access the advanced features of the calculator -->
+                        <div id ="expression"></div>
+                        <div id ="currentOperand">0</div>
+                    </div>
+                    <!-- the Html for Basic features starts here -->
+                        <button  class = "row-lg"id ="allClear">AC</button>
+                        <button class ="row-lg" id ="clear">CE</button>
+                        <button  class ="row-lg" class = "num" data-operator = "%">%</button>
+                        <button class ="col-o" data-operator = "/">&divide</button>
+                        <button  class = "row-g"data-number = "7">7</button>
+                        <button  class = "row-g"data-number= "8">8</button>
+                        <button class = "row-g"  data-number = "9">9</button>
+                        <button class = "col-o
+                        " data-operator = "*">&times</button>
+                        <button  class = "row-g"data-number = "4">4</button>
+                        <button  class ="row-g" data-number ="5">5</button>
+                        <button class = "row-g" data-number ="6">6</button>
+                        <button  class = "col-o"data-operator ="-">-</button>
+                        <button  class = "row-g"data-number = "1">1</button>
+                        <button  class = "row-g" data-number = "2">2</button>
+                        <button  class = "row-g" data-number = "3">3</button>
+                        <button  class ="col-o" data-operator = "+">+</button>
+                        <button class = "zero two row-g"data-number  = "0">0</button>
+                        <button  class = "row-g" data-number = ".">.</button>
+                        <button id ="equals" class = "col-o">=</button>
+                        <!-- the Html for Advanced features starts here -->
+            
+                    </div>
+            </section>
+            <footer>From CSC310 Group 21 ™</footer>
+        </article>
+    </body>
+</html>

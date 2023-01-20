@@ -1,0 +1,112 @@
+
+
+.navbar{
+    list-style-type: none;
+    width:100%;
+    background-color: rgb(50, 43, 146);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li{
+display:inline;
+border-right:1px solid wheat;
+}
+
+.navbar li:hover{
+background-color: grey;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 34px 36px;
+}
+
+body{
+    background:url("ca.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
+
+
+  table{
+    margin-left:200px;
+    background-color: whitesmoke;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    padding:10px;
+    border-radius: 30px;
+    height:900px;
+  }
+
+  .intro{
+    font-size:4em;
+    color:rgb(255, 216, 190);
+    text-align: center;
+    font-family: 'Impact';
+  }
+
+
+  form label{
+    font-weight:300px;
+    font-size:3em;
+    font-family: 'Impact';
+    
+  }
+
+  input{
+    height:4em;
+    text-align: center;
+    box-shadow: 1em;
+    width:400px;
+    margin:0;
+  }
+
+.answer{
+    margin-left:100px;
+    margin-top:10px;
+    width:200px;
+    border-radius: 20px;
+}
+
+.answer:hover{
+    background-color:grey;
+}
+
+.form{
+    margin-left:550px;
+}
+
+footer{
+    font-family: sans-serif;
+    color: blanchedalmond   ;
+}
+
+table td{
+    border:solid 5px;
+    border-color:rgb(115, 82, 207);
+    border-radius: 24px;
+    padding:15px;
+    font-family:monospace;
+}
+
+.in{
+    opacity:0;
+    transition: opacity 1s;
+    background-color: wheat;
+    z-index: 9;
+    color:blue;
+
+}
+
+.in:hover{
+    opacity:1;
+}
+
+
